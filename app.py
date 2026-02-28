@@ -53,7 +53,7 @@ hr {
 col_logo, col_title = st.columns([1,5])
 
 with col_logo:
-    st.image("logo.png", width=120)
+    st.image("logo.png.webp", width=120)
 
 with col_title:
     st.markdown('<div class="main-title">Citykart Enterprise DB Tool</div>', unsafe_allow_html=True)
@@ -211,3 +211,4 @@ if uploaded_file:
 
         except Exception as e:
             st.error(f"Operation Failed: {e}")
+
