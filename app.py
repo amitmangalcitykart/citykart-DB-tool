@@ -3,6 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.types import VARCHAR, FLOAT, INTEGER, DATE
 from datetime import datetime
+import cx_Oracle
 
 # ─────────────────────────────
 # PAGE CONFIG
