@@ -1,0 +1,8 @@
+streamlit
+pandas
+openpyxl
+xlrd
+numpy
+pillow
+cx_Oracle
+sqlalchemy
