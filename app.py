@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.types import VARCHAR, FLOAT, INTEGER, DATE
 from datetime import datetime
-import cx_Oracle
+import oracledb
 
 # ─────────────────────────────
 # PAGE CONFIG
@@ -64,7 +64,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 # ─────────────────────────────
 # DATABASE CONNECTION
 # ─────────────────────────────
-DB_URL = "oracle+cx_oracle://Report:Report@10.0.0.15:1521/?service_name=Ginesys"
+DB_URL = "oracle+oracledb://Report:Report@10.0.0.15:1521/?service_name=Ginesys"
 
 @st.cache_resource
 def get_engine():
