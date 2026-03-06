@@ -2,6 +2,3 @@ streamlit==1.54.0
 pandas
 sqlalchemy
 oracledb
-datetime
-os
-time
