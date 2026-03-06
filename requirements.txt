@@ -1,5 +1,6 @@
 streamlit
 pandas
 sqlalchemy
-oracledb
+cx_oracle
+
 
