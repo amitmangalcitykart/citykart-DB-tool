@@ -84,7 +84,7 @@ with col2:
 # ─────────────────────────────
 # DATABASE
 # ─────────────────────────────
-DB_URL = "oracle+cx_oracle://Report:Report@10.0.0.15:1521/?service_name=Ginesys"
+DB_URL = "oracle+oracledb://Report:Report@10.0.0.15:1521/?service_name=Ginesys"
 
 @st.cache_resource
 def get_engine():
@@ -339,3 +339,4 @@ try:
     st.dataframe(audit_df, use_container_width=True)
 except:
     st.info("No audit history found")
+
